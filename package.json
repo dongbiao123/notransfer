@@ -1,0 +1,17 @@
+{
+  "name": "han-zi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "config:cp": "cp .config.example.js .config.js",
+    "config:send": "cp .config.js vue-admin/ && cp .config.js vue-pc/ && cp .config.js vue-phone/ && echo '配置文件分发成功!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://hz:hz123@git.ping-qu.com/project/interface_tool_front.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
